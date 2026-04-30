@@ -91,15 +91,6 @@ ln -s "$(pwd)/skills/karpathy" ~/.claude/skills/karpathy
 
 ---
 
-## 설계 원칙
-
-- **1 skill, 4 phase, 0 친구** — 5개로 쪼개지 않고 하나로 통합. 기억할 이름은 `karpathy` 하나.
-- **순서로 경계 구분** — 단계가 시간순(1→4)이라 트리거 충돌 없음.
-- **opt-in 호출 모델** — off 스위치 불필요. 호출 안 하면 그게 off.
-- **프로젝트 우선** — 글로벌 규율이 프로젝트 정책을 덮지 않는다.
-
----
-
 ## 유지보수
 
 - 본 repo가 single source of truth.
